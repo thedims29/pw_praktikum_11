@@ -13,7 +13,7 @@
 include "koneksi.php";
 // Mendapatkan data mahasiswa berdasarkan ID
 $id = $GET['id'];
-$sql = "SELECT FROM mahasiswa WHERE id='$id";
+$sql = "SELECT * FROM mahasiswa_4742 WHERE id='$id";
 $result = mysqli_query($link, $sql);
 $data = mysqli_fetch_assoc($result);
 ?>
